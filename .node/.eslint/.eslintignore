@@ -1,0 +1,5 @@
+# dist
+dist/
+
+# module
+node_modules/

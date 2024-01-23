@@ -1,0 +1,10 @@
+[core]
+	editor = \"C:\\Users\\muun\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[user]
+	name = Muunatic
+	email = muunatic@typeslint.com
+	signingkey = 125534A11B63B1FC
+[safe]
+	directory = *
+[gpg]
+	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe

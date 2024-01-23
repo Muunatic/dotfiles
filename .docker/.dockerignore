@@ -1,0 +1,9 @@
+Dockerfile
+**/node_modules/
+**/dist/
+**/.git
+**/.vscode
+**/README.md
+**/LICENSE
+**/.env
+**/*.pem

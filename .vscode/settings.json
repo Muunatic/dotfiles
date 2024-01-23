@@ -1,0 +1,18 @@
+{
+    "workbench.colorTheme": "Night Owl",
+    "redhat.telemetry.enabled": true,
+    "files.exclude": {
+        "**/.DS_Store": false,
+        "**/.git": false
+    },
+    "typescript.enablePromptUseWorkspaceTsdk": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.files.associations": {
+        "*.html": "templ",
+        "*.aspx": "templ",
+        "*.asp": "templ"
+    },
+    "editor.maxTokenizationLineLength": 10000000,
+    "files.autoSave": "afterDelay",
+    "workbench.editor.dragToOpenWindow": false,
+}

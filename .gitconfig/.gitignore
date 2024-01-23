@@ -1,0 +1,11 @@
+# vscode
+.vscode/
+
+# module
+node_modules/
+
+# dist
+dist/
+
+# env
+.env
