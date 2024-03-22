@@ -15,4 +15,10 @@
     "editor.maxTokenizationLineLength": 10000000,
     "files.autoSave": "afterDelay",
     "workbench.editor.dragToOpenWindow": false,
+    "editor.stickyScroll.enabled": false,
+    "quokka.compactMessageOutput": false,
+    "quokka.automaticRestart": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
 }
