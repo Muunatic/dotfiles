@@ -1,24 +1,36 @@
 {
     "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "material-icon-theme",
     "redhat.telemetry.enabled": true,
     "files.exclude": {
         "**/.DS_Store": false,
         "**/.git": false
     },
     "typescript.enablePromptUseWorkspaceTsdk": true,
-    "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.files.associations": {
         "*.html": "templ",
         "*.aspx": "templ",
         "*.asp": "templ"
     },
-    "editor.maxTokenizationLineLength": 10000000,
-    "files.autoSave": "afterDelay",
     "workbench.editor.dragToOpenWindow": false,
+    "prettier.tabWidth": 4,
+    "prettier.trailingComma": "none",
+    "editor.formatOnSave": true,
     "editor.stickyScroll.enabled": false,
+    "editor.maxTokenizationLineLength": 10000000,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
     "quokka.compactMessageOutput": false,
     "quokka.automaticRestart": true,
+    "files.autoSave": "afterDelay",
     "[javascript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
 }
