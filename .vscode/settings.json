@@ -15,6 +15,7 @@
     "workbench.editor.dragToOpenWindow": false,
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "none",
+    "prettier.printWidth": 99999,
     "editor.formatOnSave": true,
     "editor.stickyScroll.enabled": false,
     "editor.maxTokenizationLineLength": 10000000,
@@ -33,4 +34,5 @@
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "markdown-preview-enhanced.previewTheme": "one-dark.css"
 }
