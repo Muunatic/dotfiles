@@ -37,8 +37,18 @@
     "[yaml]": {
         "editor.defaultFormatter": "redhat.vscode-yaml"
     },
-    "markdown-preview-enhanced.previewTheme": "one-dark.css",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
     "html.validate.styles": false,
+    "html.format.wrapAttributes": "auto",
+    "html.format.extraLiners": "",
+    "html.format.wrapLineLength": 0,
+    "css.format.spaceAroundSelectorSeparator": true,
+    "markdown-preview-enhanced.previewTheme": "one-dark.css",
     "javascript.format.semicolons": "insert",
     "typescript.format.semicolons": "insert",
     "terminal.integrated.profiles.windows": {
