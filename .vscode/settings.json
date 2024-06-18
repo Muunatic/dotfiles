@@ -79,5 +79,6 @@
             ]
         }
     },
-    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)"
+    "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+    "terminal.integrated.shellIntegration.enabled": false
 }
