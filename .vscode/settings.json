@@ -16,6 +16,7 @@
     "prettier.tabWidth": 4,
     "prettier.trailingComma": "none",
     "prettier.printWidth": 99999,
+    "window.zoomLevel": -1,
     "editor.formatOnSave": true,
     "editor.stickyScroll.enabled": false,
     "editor.maxTokenizationLineLength": 10000000,
