@@ -1,0 +1,33 @@
+# # # GET Method
+GET https://localhost:3000/api/v1/users HTTP/1.1
+Authorization: Bearer <bearer_token>
+Accept: application/json
+Content-Type: application/json
+
+# # # POST Method
+POST https://localhost:3000/api/v1/users HTTP/1.1
+Cookie: token=<token>
+Authorization: Bearer <bearer_token>
+Accept: application/json
+Content-Type: application/json
+
+{
+    "username": "loremipsum",
+    "nickname": "lorsum"
+}
+
+# # # PUT Method
+PUT https://localhost:3000/api/v1/users/{id} HTTP/1.1
+Cookie: token=<token>
+Authorization: Bearer <bearer_token>
+Accept: application/json
+Content-Type: application/json
+
+{
+    "username": "loremipsum",
+    "nickname": "lorsum"
+}
+
+# # # DELETE Method
+DELETE https://localhost:3000/api/v1/users HTTP/1.1
+Authorization: Bearer <bearer_token>
