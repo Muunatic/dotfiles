@@ -30,4 +30,5 @@ Content-Type: application/json
 
 # # # DELETE Method
 DELETE https://localhost:3000/api/v1/users/${id} HTTP/1.1
+Cookie: token=<token>
 Authorization: Bearer <bearer_token>
