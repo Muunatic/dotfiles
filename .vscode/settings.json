@@ -17,14 +17,14 @@
     "prettier.trailingComma": "none",
     "prettier.printWidth": 99999,
     "livePreview.portNumber": 8080,
-    "window.zoomLevel": -1,
+    "window.zoomLevel": -2,
+    "editor.fontSize": 14,
     "editor.formatOnSave": true,
     "editor.stickyScroll.enabled": false,
     "editor.maxTokenizationLineLength": 10000000,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
     "editor.detectIndentation": false,
-    "editor.fontSize": 14,
     "debug.console.fontSize": 14,
     "terminal.integrated.fontSize": 14,
     "chat.editor.fontSize": 14,
@@ -48,6 +48,11 @@
     },
     "[css]": {
         "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "php.suggest.basic": true,
+    "php.validate.enable": true,
+    "[php]": {
+        "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
     },
     "html.validate.styles": false,
     "html.format.wrapAttributes": "auto",
@@ -82,5 +87,9 @@
         }
     },
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-    "terminal.integrated.shellIntegration.enabled": false
+    "terminal.integrated.shellIntegration.enabled": false,
+    "workbench.colorCustomizations": {
+        "minimap.background": "#00000000",
+        "scrollbar.shadow": "#00000000"
+    }
 }
