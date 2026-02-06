@@ -82,13 +82,16 @@
             "path": "C:\\WINDOWS\\System32\\wsl.exe",
             "args": [
                 "-d",
-                "Ubuntu"
+                "Ubuntu-22.04"
             ]
         }
     },
     "terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
     "terminal.integrated.shellIntegration.enabled": false,
     "workbench.colorCustomizations": {
+        "editorGutter.modifiedBackground": "#4FC3F7",
+        "editorGutter.addedBackground": "#81C784",
+        "editorGutter.deletedBackground": "#E57373",
         "minimap.background": "#00000000",
         "scrollbar.shadow": "#00000000"
     }
