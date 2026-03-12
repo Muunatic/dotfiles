@@ -6,7 +6,6 @@
         "**/.DS_Store": false,
         "**/.git": false
     },
-    "typescript.enablePromptUseWorkspaceTsdk": true,
     "material-icon-theme.files.associations": {
         "*.html": "templ",
         "*.aspx": "templ",
@@ -60,8 +59,8 @@
     "html.format.wrapLineLength": 0,
     "css.format.spaceAroundSelectorSeparator": true,
     "markdown-preview-enhanced.previewTheme": "one-dark.css",
-    "javascript.format.semicolons": "insert",
-    "typescript.format.semicolons": "insert",
+    "js/ts.tsdk.promptToUseWorkspaceVersion": true,
+    "js/ts.format.semicolons": "insert",
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
