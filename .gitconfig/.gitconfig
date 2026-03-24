@@ -1,10 +1,11 @@
 [core]
-	editor = \"C:\\Users\\muun\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+	editor = code --wait
+	fileMode = false
 [user]
 	name = Muunatic
 	email = muunatic@typeslint.com
 	signingkey = 125534A11B63B1FC
 [safe]
-	directory = *
+	directory = %(prefix)///wsl.localhost/Ubuntu-22.04/var/www/
 [gpg]
 	program = C:\\Program Files (x86)\\GnuPG\\bin\\gpg.exe
